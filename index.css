@@ -1,7 +1,11 @@
 h1 {
-    background: burlywood;
+    text-align: center;
 }
     
 p {
-    color: crimson;
+    color: white;
+}
+
+body {
+    background: darkgoldenrod;
 }
