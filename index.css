@@ -1,12 +1,60 @@
+div {
+    max-width: 700px;
+    margin: auto;
+    display: block;
+}
+
+header {
+    margin-bottom: 20px;
+}
+
+article {
+    margin-bottom: 40px;
+    background-color: rgb(252, 252, 252);
+}
+
 h1 {
     text-align: center;
+    margin-top: 1em;
+    color: rgb(40, 23, 189)
 }
-    
+
+h2 {
+    color: rgb(255, 255, 255);
+    margin-left: unset;
+    background: rgb(30, 15, 235);
+}
+
+img {
+    width: 100%;
+    border: 2px;
+}
+
+#Primera {
+    color: rgb(102, 102, 102);
+
+}
+
 p {
-    color: white;
-    text-align: center;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+#Segunda {
+    font-style: italic;
+    color: rgb(102, 102, 102);
+}
+
+hr {
+    color: black;
+}
+
 }
 
 body {
-    background: darkgoldenrod;
+    background: rgb(149, 149, 149);
+    margin: 8px;
+    display: block;
 }
