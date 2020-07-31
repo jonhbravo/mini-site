@@ -1,23 +1,52 @@
+body {
+    font-weight: 500;
+    background: rgb(149, 149, 149);
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    display: block;
+    border-bottom-left-radius: 2em;
+    padding: 0 2%;
+
+
+}
+
 div {
     max-width: 700px;
     margin: auto;
     display: block;
+    padding: 2mm;
 }
 
+
+
 header {
-    margin-bottom: 20px;
+    margin-bottom: 40px;
+    border: red;
+}
+
+h1 {
+    background: rgb(255, 255, 255);
+    text-align: center;
+    margin-top: 1em;
+    color: rgb(40, 23, 189)
+    
+}
+
+main{
+    margin-block-start: 5%;
+    border-bottom: solid rgb(255, 255, 255);
 }
 
 article {
     margin-bottom: 40px;
     background-color: rgb(252, 252, 252);
+    border: 1px solid #666666
 }
 
-h1 {
-    text-align: center;
-    margin-top: 1em;
-    color: rgb(40, 23, 189)
-}
+
+
 
 h2 {
     color: rgb(255, 255, 255);
@@ -51,10 +80,6 @@ hr {
     color: black;
 }
 
-}
-
-body {
-    background: rgb(149, 149, 149);
-    margin: 8px;
-    display: block;
+footer {
+    padding-bottom: 90px;
 }
